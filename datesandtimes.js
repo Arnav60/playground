@@ -1,0 +1,21 @@
+const today = new Date();
+let birthday = new Date('01-06-2001 00:23:45');
+birthday = new Date('January 06 2003');
+birthday = new Date('06/01/2007');
+let val;
+val = today
+val = today.getMonth();
+val = today.getDate();
+val = today.getDay();
+val = today.getFullYear();
+val = today.getHours();
+val = today.getSeconds();
+val = today.getMilliseconds();
+val = today.getTime();
+birthday.setMonth(7);
+birthday.setDate(12);
+birthday.setFullYear(2002);
+birthday.setHours(14);
+birthday.setMinutes(27);
+birthday.setSeconds(48);
+console.log(birthday);
